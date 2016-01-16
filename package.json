@@ -1,0 +1,26 @@
+{
+  "name": "fni-flexgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "description": "Forge & Illusion FlexGrid",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sass": "*",
+    "compass-mixins": "0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foyt/fni-flexgrid.git"
+  },
+  "author": "",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/foyt/fni-flexgrid/issues"
+  },
+  "homepage": "https://github.com/foyt/fni-flexgrid#readme"
+}
