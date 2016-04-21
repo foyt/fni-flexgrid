@@ -80,6 +80,10 @@
         min-width: 0px;
       }
     } 
+    
+    .#{$prefix}flex-cell-full {
+      min-width: 0px;
+    }
   }
   
   @for $i from 0 through $grid-columns {
@@ -121,6 +125,10 @@
     
   .#{$prefix}flex-min {
     min-width: 0px;
+    
+    &.flex-row {
+      min-width: auto;
+    }
   }
   
   .#{$prefix}flex-hide {
