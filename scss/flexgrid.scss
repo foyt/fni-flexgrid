@@ -14,22 +14,6 @@
   @include flex-wrap(wrap);
 }
 
-.flex-grid .no-margin-top {
-  margin-top: 0px;
-}
-
-.flex-grid .no-margin-bottom {
-  margin-bottom: 0px;
-}
-
-.flex-grid .no-margin-left {
-  margin-left: 0px;
-}
-
-.flex-grid .no-margin-right {
-  margin-right: 0px;
-}
-
 .flex-left {
   text-align: left;
 }
@@ -97,6 +81,30 @@
     margin-right: 0px;
     margin-top: #{$grid-margin / 2};
     margin-bottom: #{$grid-margin / 2};
+  }
+  
+  .#{$prefix}no-margins {
+    margin:0px;
+  }
+  
+  .#{$prefix}no-margin-top {
+    margin-top: 0px;
+  }
+  
+  .#{$prefix}no-margin-bottom {
+    margin-bottom: 0px;
+  }
+  
+  .#{$prefix}no-margin-left {
+    margin-left: 0px;
+  }
+  
+  .#{$prefix}no-margin-right {
+    margin-right: 0px;
+  }
+  
+  .#{$prefix}flex-min {
+    min-width: 0px;
   }
   
   .#{$prefix}flex-hide {
